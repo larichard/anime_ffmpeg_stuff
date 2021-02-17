@@ -1,0 +1,3 @@
+ffmpeg -i 'Your Name.mkv' -ss 00:01:38 -vframes 1 'YourNameOG.jpg'
+
+ffmpeg -i 'YourNameHardSubbed.mkv' -ss 00:01:38 -vframes 1 'YourNameHS.jpg'

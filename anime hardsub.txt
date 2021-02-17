@@ -1,0 +1,21 @@
+test 1: film tune
+
+ffmpeg -i C:/Users/noodelsz/Videos/Your.Name.2016.Bluray.1080p.DTS-HD.x264-Grym/Your.Name.2016.Bluray.1080p.DTS-HD.x264-Grym.mkv -vf "ass='C\:/Users/noodelsz/Videos/Your.Name.2016.Bluray.1080p.DTS-HD.x264-Grym/Your.Name.2016.Bluray.1080p.DTS-HD.x264-Grym.ass'" -crf 14 -tune film -preset slow -c:v libx264 -c:a copy -r 24000/1001 -sc_threshold 0 -vsync 1 -ss 00:06:10 -to 00:09:26 C:/Users/noodelsz/Videos/Your.Name.2016.Bluray.1080p.DTS-HD.x264-Grym/yournametestfilm3.mkv
+
+test 2: animation tune
+
+ffmpeg -i C:/Users/noodelsz/Videos/Your.Name.2016.Bluray.1080p.DTS-HD.x264-Grym/Your.Name.2016.Bluray.1080p.DTS-HD.x264-Grym.mkv -vf "ass='C\:/Users/noodelsz/Videos/Your.Name.2016.Bluray.1080p.DTS-HD.x264-Grym/Your.Name.2016.Bluray.1080p.DTS-HD.x264-Grym.ass'" -crf 14 -tune animation -preset slow -c:v libx264 -c:a copy -r 24000/1001 -sc_threshold 0 -vsync 1 -ss 00:06:10 -to 00:09:26 C:/Users/noodelsz/Videos/Your.Name.2016.Bluray.1080p.DTS-HD.x264-Grym/yournametestanimation.mkv
+
+final: film
+
+test 1: film tune
+
+ffmpeg -i C:/Users/noodelsz/Videos/Your.Name.2016.Bluray.1080p.DTS-HD.x264-Grym/Your.Name.2016.Bluray.1080p.DTS-HD.x264-Grym.mkv -vf "ass='C\:/Users/noodelsz/Videos/Your.Name.2016.Bluray.1080p.DTS-HD.x264-Grym/Your.Name.2016.Bluray.1080p.DTS-HD.x264-Grym.ass'" -crf 16 -tune film -preset slow -c:v libx264 -c:a copy -r 24000/1001 -sc_threshold 0 -vsync 1 C:/Users/noodelsz/Videos/Your.Name.2016.Bluray.1080p.DTS-HD.x264-Grym/YourNameHardSubbed.mkv
+
+
+
+madoka rebellion hardsub:
+
+film tune:
+
+ffmpeg -i [Meguca]_Puella_Magi_Madoka_Magica_Part_III_-_Rebellion_[BD][h264-1080p_FLAC][45D40AAC].mkv -vf "subtitles='E\:/aniem movies/Puella_Magi_Madoka_Magica_Part_III_-_Rebellion/[Meguca]_Puella_Magi_Madoka_Magica_Part_III_-_Rebellion_[BD][h264-1080p_FLAC][45D40AAC].mkv'" -crf 16 -tune film -preset slow -c:v libx264 -c:a copy -r 24000/1001 -sc_threshold 0 -vsync 1 MadokaMagicaRebellionTest.mkv

@@ -1,0 +1,3 @@
+ffplay YourNameHardSubbed.mkv -ss 00:01:38
+
+ffplay 'Your Name.mkv' -ss 00:01:38

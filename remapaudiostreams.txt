@@ -30,7 +30,6 @@ v9:(copy video and attachments, change mapping of audio and subs)
 ffmpeg -i '[MK] Chihayafuru - 01 [BD 1080p][Hi10][Dual-Audio][4FC9CDC2].mkv' -map 0:v:0 -map 0:a:1 -map 0:a:0 -map 0:s:1 -map 0:s:0 -map 0:t -disposition:a:0 forced -disposition:a:1 none -disposition:s:1 none -disposition:s:0 forced -c copy 'v2[MK] Chihayafuru - 01 [BD 1080p][Hi10][Dual-Audio][4FC9CDC2].mkv'
 
 v10:(v9 human readable)
-v9:(copy video and attachments, change mapping of audio and subs)
 ffmpeg -i '[MK] Chihayafuru - 01 [BD 1080p][Hi10][Dual-Audio][4FC9CDC2].mkv' \
 	-map 0:v:0 -map 0:a:1 -map 0:a:0 -map 0:s:1 -map 0:s:0 -map 0:t -map 0:d\
 	-disposition:a:0 forced -disposition:a:1 none -disposition:s:1 none -disposition:s:0 forced \
